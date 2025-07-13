@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c441ce2d77be4e848930766e1234ef78
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 182526
-  packageName: Stone UI
-  packageVersion: 1.0
-  assetPath: Assets/StoneUI/Samples/SampleScene.unity
-  uploadId: 399484
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b9276cf0de98f2e5338be7ef1c5873f9fd1f5a2bcddebfa5aadc6d436022fbd
+size 330
