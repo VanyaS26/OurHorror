@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2f9ca0f2c54f77344b6df36b26de933f
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 8574412962073106934
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279940
-  packageName: Realistic Terrain Textures Lite
-  packageVersion: 1.0
-  assetPath: Assets/ALP_Assets/Realistic Terrain Textures Lite/Terrain Layers/Ground003.terrainlayer
-  uploadId: 685085
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6c23ee64f6fe8875e304c998194cffcb201124f590c5077be162fea80c0a8e5
+size 445

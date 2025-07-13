@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: eef651aa378313d43adabec338d331bf
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279940
-  packageName: Realistic Terrain Textures Lite
-  packageVersion: 1.0
-  assetPath: Assets/ALP_Assets/Realistic Terrain Textures Lite/Materials/Terrain_Old.mat
-  uploadId: 685085
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba56318673557f3fd75bbeebeff31ea6e8c2912da485ebd8c5a0361e2040a0d1
+size 421

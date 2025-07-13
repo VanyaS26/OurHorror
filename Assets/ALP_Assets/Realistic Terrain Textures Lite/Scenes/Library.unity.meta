@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 37b362c3b56bd694d988917cee60d01d
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 279940
-  packageName: Realistic Terrain Textures Lite
-  packageVersion: 1.0
-  assetPath: Assets/ALP_Assets/Realistic Terrain Textures Lite/Scenes/Library.unity
-  uploadId: 685085
+version https://git-lfs.github.com/spec/v1
+oid sha256:6339436e8d537775aea53fc66d83ba3ff4927c01056e859a31d9705e461caac1
+size 383
