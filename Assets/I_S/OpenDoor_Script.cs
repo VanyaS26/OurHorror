@@ -13,9 +13,28 @@ public class OpenDoor_Script : MonoBehaviour
     [SerializeField] GameObject g_o;
     [SerializeField] GameObject card;
     [SerializeField] Material material1;
+    [SerializeField] AudioSource audio;    
     public bool f1 = true;
+    public bool f2 = false ;
+    public bool f3 = true;
+    public float Timer = 0f;
     void Update()
     {
+        if (f2==true)
+        {
+            if (Timer < 4 && f3==true)
+            {
+                Timer += 0.043f;
+                if (Timer >= 4)
+                {
+                    f3 = false ;
+                    card.SetActive(false);
+                    g_o.GetComponent<MeshRenderer>().material = material1;
+                    audio.Play();
+                }
+            }
+            
+        }
         
     }
     public void OnTriggerEnter(Collider other)
@@ -25,9 +44,11 @@ public class OpenDoor_Script : MonoBehaviour
             card.SetActive(true);  
             animation1.Play();
             animation2.Play();
-            g_o.GetComponent<MeshRenderer>().material = material1;   
+  
             
-            f1 =false;   
+            f1 =false;
+            f2 =true;
+
         }
     }
     
