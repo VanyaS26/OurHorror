@@ -15,7 +15,7 @@ public class GameScript : MonoBehaviour
     [SerializeField] GameObject Button9;
     public bool f1=false;
     public bool f2=false;
-    int a = Random.Range(1, 11);
+    public int a = 0;
     public int count=0;
     public float timer = 0f;
     [SerializeField] GameObject panel;
