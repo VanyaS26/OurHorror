@@ -338,7 +338,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -1152,7 +1152,6 @@ GameObject:
   - component: {fileID: 672129633}
   - component: {fileID: 672129632}
   - component: {fileID: 672129631}
-  - component: {fileID: 672129630}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -1160,33 +1159,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &672129630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672129629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 990f77c49a8f0ae43ba09bfa6014d04c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartButton: {fileID: 1256353904}
-  Button1: {fileID: 2144563951}
-  Button2: {fileID: 95167633}
-  Button3: {fileID: 1112974851}
-  Button4: {fileID: 333008877}
-  Button5: {fileID: 303895320}
-  Button6: {fileID: 1438797807}
-  Button7: {fileID: 1215509920}
-  Button8: {fileID: 1717367597}
-  Button9: {fileID: 564971137}
-  f1: 0
-  f2: 0
-  count: 0
-  timer: 0
-  panel: {fileID: 1442337774}
 --- !u!54 &672129631
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1724,7 +1696,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -2212,7 +2184,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -2345,7 +2317,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: GameStart
         m_Mode: 1
@@ -2666,7 +2638,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -3547,7 +3519,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -4474,7 +4446,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 672129630}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
         m_MethodName: Game
         m_Mode: 1
@@ -5948,7 +5920,7 @@ MonoBehaviour:
   f1: 1
   f2: 0
   f3: 1
-  Timer: 0
+  Timer: 4
 --- !u!82 &8912882695060926242
 AudioSource:
   m_ObjectHideFlags: 0
