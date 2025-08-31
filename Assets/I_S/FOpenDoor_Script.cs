@@ -17,15 +17,15 @@ public class OpenDoor_Script : MonoBehaviour
     public bool f1 = true;
     public bool f2 = false ;
     public bool f3 = true;
-    public float Timer = 0f;
+    public float Timer = 4f;
     void Update()
     {
         if (f2==true)
         {
-            if (Timer < 4 && f3==true)
+            if (Timer > 0 && f3==true)
             {
-                Timer += 0.043f;
-                if (Timer >= 4)
+                Timer -= Time.deltaTime;
+                if (Timer <= 0)
                 {
                     f3 = false ;
                     card.SetActive(false);

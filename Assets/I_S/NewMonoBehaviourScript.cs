@@ -10,15 +10,15 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public bool f1 = true;
     public bool f2 = false;
     public bool f3 = true;
-    public float Timer = 0f;
+    public float Timer = 3f;
     void Update()
     {
         if (f2 == true)
         {
-            if (Timer < 3 && f3 == true)
+            if (Timer > 0 && f3 == true)
             {
-                Timer += 0.043f;
-                if (Timer >= 3)
+                Timer -= Time.deltaTime;
+                if (Timer <= 0)
                 {
                     f3 = false;
                     Key.SetActive(false);
