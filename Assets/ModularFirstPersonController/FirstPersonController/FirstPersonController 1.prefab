@@ -31,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 766789818121244169}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5343, y: 19.3, z: 90.717316}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalPosition: {x: 71.43359, y: 2.3, z: 71.83496}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3494730307365147836}
@@ -194,7 +194,7 @@ MonoBehaviour:
   crouchHeight: 0.75
   speedReduction: 0.5
   enableHeadBob: 1
-  joint: {fileID: 3494730307365147836}
+  joint: {fileID: 742734247926248028}
   bobSpeed: 10
   bobAmount: {x: 0, y: 0.1, z: 0}
 --- !u!114 &4897416252302421388
